@@ -11,7 +11,7 @@ class ImageGallerySaver {
   /// return Map type
   /// for example:{"isSuccess":true, "filePath":String?}
   static FutureOr<dynamic> saveImage(Uint8List imageBytes,
-      {int quality = 80,
+      {int quality = 100,
       String? name,
       bool isReturnImagePathOfIOS = false}) async {
     final result =
